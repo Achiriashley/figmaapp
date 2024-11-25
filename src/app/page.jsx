@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 import  HeroComponent  from '@/Components/Hero/HeroComponent';
 import CardComponent from '@/Components/Card/CardComponent';
-import CardComponent1 from '../Components/Card2/CardComponent1';
+import CardComponent1 from '@/Components/Card2/CardComponent1';
 import FooterComponent from '@/Components/Footer/FooterComponent';
 import CardComponents2 from '@/Components/Card3/CardComponents2';
 import ElecComponent from '@/Components/Electronics/ElecComponent';
