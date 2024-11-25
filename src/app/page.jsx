@@ -23,10 +23,10 @@ export default function Page() {
      <NavbarComponent />
      <>
      <HeroComponent/>
-     <div className="  ">
-     <div className="flex justify-between items-center mb-4">
+     <div className="w-full  ">
+     <div className="flex justify-between items-center gap-6 mb-4">
     <h2 className="text-xl font-semibold">
-      Grab the best deal on <span className="text-blue-600">Smartphones</span>
+      Grab the best deal on <span className="text-blue-600 underline">Smartphones</span>
     </h2>
     <a href="#" className="text-blue-600 hover:underline">View All</a>
   </div>
@@ -44,7 +44,7 @@ export default function Page() {
    
         <div className="flex justify-between items-center mb-4">
     <h2 className="text-xl font-semibold">
-      Shop From <span className="text-blue-600">Top Categories</span>
+      Shop From <span className="text-blue-600 underline">Top Categories</span>
     </h2>
     <a href="#" className="text-blue-600 hover:underline">
       View All
@@ -61,14 +61,14 @@ export default function Page() {
         </div>
 
         <div className="flex justify-between items-center mb-4">
-      <h2 className="text-2xl font-bold mb-4">Daily <span className="text-blue-600">Electronics </span></h2>
+      <h2 className="text-2xl font-bold mb-4">Daily <span className="text-blue-600 underline">Electronics </span></h2>
       </div>
       <div className="h-[100%] w-[100%] flex items-center justify-center p-5   gap-5"> 
         {products4.map((product) =>(
+        
           <ElecComponent 
           key={product.id}
           image={product.image} 
-        
           name={product.name} 
           />
         ))}
@@ -76,7 +76,7 @@ export default function Page() {
 
 
         <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl  font-bold mb-4">Daily <span className="text-blue-600"> Essentials</span></h2>
+        <h2 className="text-2xl  font-bold mb-4 ">Daily <span className="text-blue-600 underline"> Essentials</span></h2>
         <a href="#" className="text-blue-600 hover:underline">
       View All
     </a>

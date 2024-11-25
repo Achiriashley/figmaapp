@@ -22,8 +22,9 @@ export default function CardComponents2({image,name}) {
              />
                 </Link>
              </div>
+             <div className="p-4">
              <h3 className="mt-4 flex text-sm font-semibold">{name}</h3>
-            
+            </div>
             </div>
          </div>
   )
