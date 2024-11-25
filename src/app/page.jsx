@@ -1,8 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import NavbarComponent from '@/components/NavBar/NavbarComponent';
-// import CardComponent from '@/Components/Card/CardComponent';
+
  import { products } from '@/tools/dataa';
  import { products2 } from '@/tools/data2';
  import { products3 } from '@/tools/food';
@@ -14,13 +13,14 @@ import CardComponent1 from '../Components/Card2/CardComponent1';
 import FooterComponent from '@/Components/Footer/FooterComponent';
 import CardComponents2 from '@/Components/Card3/CardComponents2';
 import ElecComponent from '@/Components/Electronics/ElecComponent';
+import NavbarComponent from '@/Components/NavBar/NavbarComponent';
 
 
 
 export default function Page() { 
   return (
     <div className="">
-     <NavbarComponent />
+     <NavbarComponent/>
      <>
      <HeroComponent/>
      <div className="w-full  ">

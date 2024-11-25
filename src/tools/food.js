@@ -16,11 +16,11 @@ export const products3 = [
       name: '50% OFF'
      },
     {    id: 5,
-     image: '/images/food5.png',
+     image: '/images/food7.png',
       name: '50% OFF'
      },
     {    id: 6,
-     image: '/images/food7.png',
+     image: '/images/food5.png',
       name: '50% OFF'
      },
     ];
