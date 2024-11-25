@@ -24,7 +24,7 @@ export default function Page() {
      <>
      <HeroComponent/>
      <div className="w-full  ">
-     <div className="flex justify-between items-center gap-6 mb-4">
+     <div className="flex w-full justify-between items-center gap-6 mb-4">
     <h2 className="text-xl font-semibold">
       Grab the best deal on <span className="text-blue-600 underline">Smartphones</span>
     </h2>

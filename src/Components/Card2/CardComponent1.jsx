@@ -11,7 +11,7 @@ export default function CardComponent1({image,name}) {
   {/* Categories Grid */}
   <div className="flex space-x-6 overflow-x-auto">
     {/* Single Category */}
-    <div className="flex flex-col items-center">
+    <div className=" border-full  w-full flex flex-col items-center">
       <div className="w-16 h-16 flex shadow items-center justify-center bg-gray-100 rounded-full border-2 border-blue-600">
        <Link href={`/images`}>
         <Image  

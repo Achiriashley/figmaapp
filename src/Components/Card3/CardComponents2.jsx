@@ -8,8 +8,8 @@ export default function CardComponents2({image,name}) {
     
       
        
-          <div className=" mx-auto px-4 md:px-8 lg:px-16 overflow-x-auto">
-            <div className=" shadow  grid-cols-1 sm:grid-cols-2   gap-4">
+          <div className=" w-full mx-auto  overflow-x-auto">
+            <div className="w-full shadow     gap-4">
              <div>
                 <Link  href={'/images'}>
                <Image

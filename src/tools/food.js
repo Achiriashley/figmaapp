@@ -3,24 +3,24 @@ export const products3 = [
      image: '/images/food1.png',
       name: '50% OFF'
      },
-    {    id: 1,
+    {    id: 2,
      image: '/images/food2.png',
       name: '50% OFF'
      },
-    {    id: 1,
+    {    id: 3,
      image: '/images/food3.png',
       name: '50% OFF'
      },
-    {    id: 1,
+    {    id: 4,
      image: '/images/food4.png',
       name: '50% OFF'
      },
-    {    id: 1,
+    {    id: 5,
      image: '/images/food5.png',
       name: '50% OFF'
      },
-    {    id: 1,
-     image: '/images/food6.png',
+    {    id: 6,
+     image: '/images/food7.png',
       name: '50% OFF'
      },
     ];

@@ -12,6 +12,6 @@ export const products4 = [
     {    id: 3,
      image: '/images/box3.png',
    
-      name: 'Iphone'
+      name: 'Iphon e'
      },
     ];

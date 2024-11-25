@@ -2,19 +2,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
- export default function CardComponent({image="/fallback-image.png",name,price,slug}) {
+ export default function CardComponent({image,name,price}) {
   return (
     <div className=" ">
   
  
-<div className='flex flex-row w-full'>
+<div className=' max-w-6xl mx-auto p-6'>
   {/* Card Grid */}
-  <div className="grid grid-cols-1 w-full    gap-4">
+  <div className="flex space-x-4 overflow-x-auto">
   {/* Single Card */}
-    <div className="border rounded-lg p-4 shadow hover:shadow-lg">
+    <div className="border w-full ">
       <div className="relative">
       <Link
-              href={`/images/${slug}`}>
+              href={`/images`}>
         <Image
           src={image}
           
